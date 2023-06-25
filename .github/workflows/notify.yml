@@ -2,7 +2,7 @@ name: Notify
 
 on:
   schedule:
-    - cron: 40 11 * * * # 6:40 PM in Vietnam
+    - cron: 52 13 * * * # 6:40 PM in Vietnam
 
 jobs:
   update-data:
