@@ -7,8 +7,8 @@ from functools import lru_cache
 
 from pydantic import Field, ValidationError
 from pydantic_settings import BaseSettings
-# from telegram import Bot
-from telegram.bot import Bot
+from telegram import Bot
+# from telegram.bot import Bot
 
 
 class TelegramSettings(BaseSettings):
