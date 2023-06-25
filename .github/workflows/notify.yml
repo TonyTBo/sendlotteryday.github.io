@@ -4,7 +4,7 @@ on:
 #   push:
 #     branches: [ main ]
   schedule:
-    - cron: '36 7 * * *' # Chạy vào lúc 14:17 (1:59 PM) theo giờ Việt Nam
+    - cron: '*/1 * * * *' 
 
 jobs:
   update-data:
