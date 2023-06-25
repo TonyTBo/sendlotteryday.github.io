@@ -1,10 +1,9 @@
 name: Notify
 
 on:
-#   push:
-#     branches: [ main ]
-  schedule:
-    - cron: '1 8 * * *'
+    schedule:
+      - cron: '10 8 * * *'  # Chạy lúc 8:10 UTC, tương đương với 15:10 giờ Việt Nam
+  
 
 jobs:
   update-data:
