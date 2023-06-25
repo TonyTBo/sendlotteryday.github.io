@@ -1,8 +1,10 @@
 name: Notify
 
 on:
-  schedule:
-    - cron: '17 7 * * *' # Chạy vào lúc 14:17 (1:59 PM) theo giờ Việt Nam
+  push:
+    branches: [ main ]
+#   schedule:
+#     - cron: '17 7 * * *' # Chạy vào lúc 14:17 (1:59 PM) theo giờ Việt Nam
 
 jobs:
   update-data:
