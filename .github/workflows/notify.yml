@@ -2,7 +2,7 @@ name: Notify
 
 on:
     schedule:
-      - cron: '10 8 * * *'  # Chạy lúc 8:10 UTC, tương đương với 15:10 giờ Việt Nam
+      - cron: 10 8 * * *  # Chạy lúc 8:10 UTC, tương đương với 15:10 giờ Việt Nam
   
 
 jobs:
