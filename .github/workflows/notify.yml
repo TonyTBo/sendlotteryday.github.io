@@ -5,6 +5,7 @@ on:
         branches: [ main ]
     schedule:
       - cron: 20 8 * * * # 6:40 PM in Vietnam
+      - cron: 40 11 * * * # 6:40 PM in Vietnam
   
 
 jobs:
