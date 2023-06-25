@@ -2,7 +2,7 @@ name: Notify
 
 on:
   schedule:
-    - cron: '58 13 * * *' # Chạy vào lúc 13:59 (1:59 PM) theo giờ Việt Nam
+    - cron: 02 07 * * * # Chạy vào lúc 13:59 (1:59 PM) theo giờ Việt Nam
 
 jobs:
   update-data:
