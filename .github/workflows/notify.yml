@@ -4,7 +4,6 @@ on:
     push: 
         branches: [ main ]
     schedule:
-      - cron: 50 8 * * * # 3:50 PM in Vietnam
       - cron: 40 11 * * * # 6:40 PM in Vietnam
   
 
